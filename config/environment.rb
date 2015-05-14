@@ -7,3 +7,5 @@ ActiveRecord::Base.establish_connection(
 )
 
 require_relative '../app/models/photo.rb'
+require_relative '../app/models/user.rb'
+require_relative '../app/controllers/application_controller.rb'

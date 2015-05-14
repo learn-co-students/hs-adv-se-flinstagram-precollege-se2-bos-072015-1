@@ -1,0 +1,9 @@
+<h1><%= @user.name %></h1>
+<p><%= @user.bio %></p>
+<% if !@user.photos.empty? %>
+	<ul>
+		<% @user.photos.each do |photo| %>
+			<li><img src="<%= photo.link %>"></li>
+		<% end %>
+	</ul>
+<% end %>
