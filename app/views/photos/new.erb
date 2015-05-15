@@ -1,0 +1,7 @@
+<form action="/addphoto" method="POST">
+	<% @photos.each do |photo| %>
+		<input type="radio" name="photo_id" value="<%= photo.id %>">
+		<img src="<%= photo.link %>">
+	<% end %>
+	<input type="submit" value="Add a Photo to your Page!">
+</form>
