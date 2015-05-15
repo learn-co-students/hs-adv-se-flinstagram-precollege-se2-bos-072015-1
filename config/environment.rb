@@ -5,7 +5,3 @@ ActiveRecord::Base.establish_connection(
   :adapter => 'sqlite3',
   :database => 'db/development.sqlite3'
 )
-
-require_relative '../app/models/photo.rb'
-require_relative '../app/models/user.rb'
-require_relative '../app/controllers/application_controller.rb'

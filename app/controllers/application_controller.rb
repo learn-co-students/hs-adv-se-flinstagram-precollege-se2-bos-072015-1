@@ -7,40 +7,6 @@ class ApplicationController < Sinatra::Base
     set :session_secret, 'flatironrulz'
   end
 
-	get '/' do
-		erb :"index"
-	end
+# Your code here! 
 
-	post '/login' do
-		@user = User.find_by(name: params[:username])
-		session[:user] = @user
-		redirect to "/users/#{@user.id}"
-	end
-
-	get '/users/:id' do
-		@user = User.find(params[:id])
-		erb :"users/show"
-	end
-
-	get '/photos' do
-		@photos = Photo.all
-		erb :"photos/index"
-	end
-
-	get '/photos/new' do
-		@photos = Photo.all
-		erb :"photos/new"
-	end
-
-	post '/addphoto' do
-		@photo = Photo.find(params[:photo_id])
-		@user = session[:user]
-		@photo.update(user: session[:user])
-		redirect to "/users/#{@user.id}"
-	end
-
-	get '/logout' do
-		session[:user] = nil
-		redirect to "/"
-	end
 end
