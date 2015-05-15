@@ -1,4 +1,3 @@
-
 class ApplicationController < Sinatra::Base
 
   configure do
@@ -37,7 +36,11 @@ class ApplicationController < Sinatra::Base
 		@photo = Photo.find(params[:photo_id])
 		@user = session[:user]
 		@photo.update(user: session[:user])
-		binding.pry
 		redirect to "/users/#{@user.id}"
+	end
+
+	get '/logout' do
+		session[:user] = nil
+		redirect to "/"
 	end
 end

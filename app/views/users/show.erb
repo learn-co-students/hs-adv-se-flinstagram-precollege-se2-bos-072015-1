@@ -7,4 +7,6 @@
 		<% end %>
 	</ul>
 <% end %>
-<a href="/photos/new">Post a New Photo!</a>
+<% if @user == session[:user] %>
+	<a href="/photos/new">Post a New Photo!</a>
+<% end %>
