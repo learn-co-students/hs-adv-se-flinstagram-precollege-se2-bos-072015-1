@@ -15,7 +15,7 @@ Set up your Photo class in `photo.rb` (don't forget to inherit from from ActiveR
 
 **Step 3** - We've got the M covered, now let's move onto the V. In your views directory create a `photos.erb` that will display all of the photos and their descriptions. 
 
-**Step 4** - Set up your `get '/photos'` route to pull all of your items from the database and display them in your new `photos.erb` template.
+**Step 4** - Set up your `get '/photos'` route to pull all of your items from the database and display them in your new `photo.erb` template.
 
 Nice pix!!!
 
