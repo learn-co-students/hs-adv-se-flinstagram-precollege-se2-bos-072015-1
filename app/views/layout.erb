@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flinstagram!</title>
+</head>
+<body>
+	<nav>
+	    <ul>
+	    		<% if session[:user] %>
+	        	<li><a href="/logout">Logout</a></li>
+	        <% end %>
+	    </ul>
+	</nav>
+
+	<%= yield %>
+	
+</body>
+</html>
