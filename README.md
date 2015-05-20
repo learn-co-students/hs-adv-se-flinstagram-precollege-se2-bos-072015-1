@@ -47,7 +47,7 @@ Nice pix!!!
 
 ### DOUBLE BONUS
 
-+ + It would be nice if more than one user could post the same photo. Check out the ActiveRecord documentation [here](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association) and try to set up a "many to many" relationship between users and photos.
++ It would be nice if more than one user could post the same photo. Check out the ActiveRecord documentation [here](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association) and try to set up a "many to many" relationship between users and photos.
 
 
 
