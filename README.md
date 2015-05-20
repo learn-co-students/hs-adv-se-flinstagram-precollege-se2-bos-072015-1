@@ -35,7 +35,7 @@ Nice pix!!!
 + You should build a page to see your own profile page that displays your name, bio, and photos.
 
 + A User should be able to "post photos" to their page. 
-	* Clicking an "Add Photos" link on the users page should take them to a form. 
+	* Clicking an "Add Photos" link on your profile page should take them to a form. 
 	* The form should show all available photos in the database. 
 	* The user should be able to select a photo. 
 	* After submitting the form, the photo should display in their "my photos section."
@@ -45,6 +45,13 @@ Nice pix!!!
 + The "All Photos" form should only show available pictures. Once one User is associated with a photo, another user can't take it from them. 
 + The user should be able to add a caption to the photo as part of the same form. 
 
+<<<<<<< HEAD
+=======
+### DOUBLE BONUS
+
++ It would be nice if more than one user could post the same photo. Check out the ActiveRecord documentation [here](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association) and try to set up a "many to many" relationship between users and photos.
+
+>>>>>>> dc5c4f778e52a3831595e70abd356a7a202655cd
 
 
 
