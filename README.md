@@ -32,7 +32,7 @@ Nice pix!!!
 + This also means we need a sign-in and a sign out page. The sign in page should check the user's name and password. If they match the database, then the user_id should be added to the session hash. When a user signs out, the user_id should be set to nil.
 
 
-+ Every user should have a page that displays their name and bio. 
++ You should build a page to see your own profile page that displays your name, bio, and photos.
 
 + A User should be able to "post photos" to their page. 
 	* Clicking an "Add Photos" link on the users page should take them to a form. 
