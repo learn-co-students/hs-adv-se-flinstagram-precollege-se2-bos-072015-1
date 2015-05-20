@@ -35,7 +35,7 @@ Nice pix!!!
 + You should build a page to see your own profile page that displays your name, bio, and photos.
 
 + A User should be able to "post photos" to their page. 
-	* Clicking an "Add Photos" link on the users page should take them to a form. 
+	* Clicking an "Add Photos" link on your profile page should take them to a form. 
 	* The form should show all available photos in the database. 
 	* The user should be able to select a photo. 
 	* After submitting the form, the photo should display in their "my photos section."
