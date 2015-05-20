@@ -21,15 +21,15 @@ Nice pix!!!
 
 ## Features/Challenges
 
-+ Create a User model with some appropriate attributes - `name`, `bio`, `password` etc. 
++ Create a User model with some appropriate attributes - `name`, `bio`, etc. 
 
 + A photo should belong_to a user, and a user should have_many photos. That means the photo table in the database is going to be modified to have a user_id column. Remember, that's how we store which photo belongs to which user.
 
-+ You'll want to create a sign-up page which has a corresponding POST route in the controller. This action should first look to see if that username exists in the database. If not, it should create the user and then log them in.
++ You'll want to create a sign-up page which has a corresponding POST route in the controller. This action should first look to see if that name exists in the database. If not, it should create the user and then log them in.
 
 + You'll want to add sessions to your site so that a user remains logged in.
 
-+ This also means we need a sign-in and a sign out page. The sign in page should check the user's name and password. If they match the database, then the user_id should be added to the session hash. When a user signs out, the user_id should be set to nil.
++ This also means we need a sign-in and a sign out page. The sign in page should check the user's name. If they match the database, then the user_id should be added to the session hash. When a user signs out, the user_id should be set to nil.
 
 
 + You should build a page to see your own profile page that displays your name, bio, and photos.
@@ -45,13 +45,6 @@ Nice pix!!!
 + The "All Photos" form should only show available pictures. Once one User is associated with a photo, another user can't take it from them. 
 + The user should be able to add a caption to the photo as part of the same form. 
 
-<<<<<<< HEAD
-=======
-### DOUBLE BONUS
-
-+ It would be nice if more than one user could post the same photo. Check out the ActiveRecord documentation [here](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association) and try to set up a "many to many" relationship between users and photos.
-
->>>>>>> dc5c4f778e52a3831595e70abd356a7a202655cd
 
 
 
