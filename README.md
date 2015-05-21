@@ -40,11 +40,15 @@ Nice pix!!!
 	* The user should be able to select a photo. 
 	* After submitting the form, the photo should display in their "my photos section."
 
-### BONUS
+### BONUS FEATURES
 
++ It'd be nice to see other users profiles besides our own - see if you can set this up using URL params. 
 + The "All Photos" form should only show available pictures. Once one User is associated with a photo, another user can't take it from them. 
-+ The user should be able to add a caption to the photo as part of the same form. 
++ The user should be able to add a caption to the photo as part of the same form.
 
+### DOUBLE BONUS
+
++ It would be nice if more than one user could post the same photo. Check out the ActiveRecord documentation [here](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association) and try to set up a "many to many" relationship between users and photos.
 
 
 
